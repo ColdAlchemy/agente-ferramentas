@@ -1,0 +1,14 @@
+[project]
+name = "agente-ferramentas"
+version = "1.0.0"
+description = "Laço de agente com tool calling do zero, validação de argumentos, aprovação humana e guardas contra injeção de prompt, com avaliação"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+agente = "agente.cli:main"
+
+[tool.setuptools]
+packages = ["agente"]
